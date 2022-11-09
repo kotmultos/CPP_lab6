@@ -1,6 +1,11 @@
+import manager.DataManager;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         Menu menu = new Menu();
         menu.start();
     }
