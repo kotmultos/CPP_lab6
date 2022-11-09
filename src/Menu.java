@@ -1,19 +1,15 @@
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Scanner;
 
-import manager.DataManager;
 import manager.InputManager;
 import manager.OutputManager;
 import manager.SerializationManager;
 import task.Pizzeria;
 
 public class Menu {
-    private ArrayList<String> menuOptions;
+    private final ArrayList<String> menuOptions;
 
     Menu() {
-        this.menuOptions = new ArrayList<String>();
+        this.menuOptions = new ArrayList<>();
 
         menuOptions.add("\n1. Серіалізувати дані");
         menuOptions.add("2. Десеріалізувати дані");

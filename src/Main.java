@@ -1,8 +1,3 @@
-import manager.DataManager;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,9 +28,4 @@ public class Main {
     4.	Знайти найбільшу кількість піц, замовлених користувачем серед запропонованого переліку піц.
     5.	Створити колекцію з переліком піц та списками їх замовників.
     6.	Створити список не виконаних замовлень на біжучий час, та вказати час перетермінування.
-
-
-
-
-
  */
